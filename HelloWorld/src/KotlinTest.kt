@@ -10,7 +10,7 @@ class KotlinTest {
 
     @Test
     fun testJoin() {
-        var collectionOfStrings: List<String> = listOf("a","b","c")
+        val collectionOfStrings: List<String> = listOf("a","b","c")
         val joinOptions = joinOptions(collectionOfStrings)
         assertEquals("[a, b, c]",joinOptions)
 
